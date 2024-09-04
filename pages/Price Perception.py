@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from streamlit_elements import *
+st.set_page_config(layout="wide")
+
+
 data = pd.read_csv("final.csv")
 perceprtion_columns = [ 'Leisure; entertainment and travel', 'Food and dishes',
        'Commodities and groceries', 'Productivity; gadgets and technology',
