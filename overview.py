@@ -6,6 +6,7 @@ st.set_page_config(layout="wide")
 
 data = pd.read_csv("final.csv")
 
+
 st.write(data.head())
 age_density_dict = [ {
     'id' : '18-24',

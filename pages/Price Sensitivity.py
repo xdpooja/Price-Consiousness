@@ -54,9 +54,9 @@ select_product = st.multiselect(
 )
 
 select_metric = st.selectbox("Choose Group", [
-    'Age', 'Gender', 'Location', 'Income', 'Decision maker', 
-    'time category', 'payment preference', 'shopping preference', 
-    'planned or preplanned', 'transaction frequency', 'willingness for additional charges', 'Feeling Towards Price Of Items (Increase in Price)', 'Feeling Towards Price Of Items (Decrease in Price)'
+    'Age', 'Income', 'Decision maker', 
+    'time category', 'payment preference', 
+    'planned or preplanned', 'transaction frequency', 'Feeling Towards Price Of Items (Increase in Price)', 'Feeling Towards Price Of Items (Decrease in Price)'
 ])
 
 
