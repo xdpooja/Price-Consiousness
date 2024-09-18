@@ -105,7 +105,7 @@ if select_metric in bar_charts:
 with elements(dashboard):
     if select_metric in line_charts:
         layout1 = [
-            dashboard.Item("first", 0,0,5,3),
+            dashboard.Item("first", 0,0,10,3),
             dashboard.Item("second", 5,0,5,3),
             dashboard.Item("third", 0,5,5,3)
         ]
@@ -132,7 +132,7 @@ with elements(dashboard):
                             'anchor': 'bottom-right',
                             'direction': 'column',
                             'justify': False,
-                            'translateX': 100,
+                            'translateX': 90,
                             'translateY': 0,
                             'itemsSpacing': 0,
                             'itemDirection': 'left-to-right',
