@@ -117,7 +117,7 @@ with elements(dashboard):
             mui.Paper(
                 nivo.Line(
                     data =overcharged_dict,
-                    margin={ 'top': 50, 'right': 110, 'bottom': 50, 'left': 60 },
+                    margin={ 'top': 50, 'right': 160, 'bottom': 50, 'left': 60 },
                     xScale={ 'type': 'point' },
                     yScale={
                         'type': 'linear',
