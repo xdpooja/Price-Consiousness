@@ -117,7 +117,7 @@ with elements(dashboard):
             mui.Paper(
                 nivo.Line(
                     data =overcharged_dict,
-                    margin={ 'top': 50, 'right': 160, 'bottom': 50, 'left': 60 },
+                    margin={ 'top': 50, 'right': 190, 'bottom': 50, 'left': 60 },
                     xScale={ 'type': 'point' },
                     yScale={
                         'type': 'linear',
@@ -219,7 +219,7 @@ with elements(dashboard):
                         'tickSize': 5,
                         'tickPadding': 5,
                         'tickRotation': 0,
-                        'legend': 'Overcharged',
+                        'legend': 'Feeling of Overcharged',
                         'legendPosition': 'middle',
                         'legendOffset': -40,
                         'truncateTickAt': 0
