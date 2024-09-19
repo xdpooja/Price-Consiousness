@@ -18,7 +18,7 @@ melted_df = filtered_df.melt(id_vars=[select_metric], var_name='Category', value
 line_charts = ['Age', 'Income', 'time category', 'willingness for additional charges']
 bar_charts = ['Gender', 'Location', 'Decision maker', 'payment preference','shopping preference','planned or preplanned', 'transaction frequency']
 
-dummmydf = pd.read_csv('dummmmy.csv')
+dummmydf = pd.read_csv('dummmmy1.csv')
 filtered_df2 = dummmydf[select_product + [select_metric]]
 melted_df2 = filtered_df2.melt(id_vars=[select_metric], var_name='Category', value_name='Perception')
 
@@ -105,7 +105,7 @@ if select_metric in bar_charts:
 with elements(dashboard):
     if select_metric in line_charts:
         layout1 = [
-            dashboard.Item("first", 0,0,10,3),
+            dashboard.Item("first", 0,0,5,3),
             dashboard.Item("second", 5,0,5,3),
             dashboard.Item("third", 0,5,5,3)
         ]
@@ -117,7 +117,7 @@ with elements(dashboard):
             mui.Paper(
                 nivo.Line(
                     data =overcharged_dict,
-                    margin={ 'top': 50, 'right': 190, 'bottom': 50, 'left': 60 },
+                    margin={ 'top': 50, 'right': 110, 'bottom': 50, 'left': 60 },
                     xScale={ 'type': 'point' },
                     yScale={
                         'type': 'linear',
@@ -132,7 +132,7 @@ with elements(dashboard):
                             'anchor': 'bottom-right',
                             'direction': 'column',
                             'justify': False,
-                            'translateX': 90,
+                            'translateX': 100,
                             'translateY': 0,
                             'itemsSpacing': 0,
                             'itemDirection': 'left-to-right',
@@ -219,7 +219,7 @@ with elements(dashboard):
                         'tickSize': 5,
                         'tickPadding': 5,
                         'tickRotation': 0,
-                        'legend': 'Feeling of Overcharged',
+                        'legend': 'Overcharged',
                         'legendPosition': 'middle',
                         'legendOffset': -40,
                         'truncateTickAt': 0
