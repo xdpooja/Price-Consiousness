@@ -540,8 +540,8 @@ with col2:
 
 with expander:
     st.components.v1.iframe("https://datawrapper.dwcdn.net/F4KWT/1/", height=400, scrolling=True)
-    st.markdown("###### 0: No 1: Yes")
+    st.markdown("###### 0: No 1: Yes \n Hover over labels to focus")
 
 with expander2:
     st.components.v1.iframe("https://datawrapper.dwcdn.net/xEfjG/1/", height=400, scrolling=True)
-    st.markdown("###### 0: No 1: Yes")
+    st.markdown("###### 0: No 1: Yes  \n Hover over labels to focus")
