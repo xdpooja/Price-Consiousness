@@ -56,7 +56,7 @@ select_product = st.multiselect(
 select_metric = st.selectbox("Choose Group", [
     'Age', 'Income', 'Decision maker', 
     'time category', 'payment preference', 
-    'planned or preplanned', 'transaction frequency', 'Feeling Towards Price Of Items (Increase in Price)', 'Feeling Towards Price Of Items (Decrease in Price)'
+    'planned or preplanned', 'transaction frequency',
 ])
 
 
@@ -90,7 +90,8 @@ if select_metric in line_charts:
         'Income': ['Below Rs. 50,000', 'Rs. 50,000- 2,00,000', 'Rs. 2,00,000- 5,00,000', 'Above Rs. 5,00,000'],
         'time category': ['No Time', 'Very Little Time', 'Moderate Time', 'Considerable Time', 'Excessive Time'],
         'willingness for additional charges': ['0', '0.05', '0.1', '0.2', 'More than 20%'],
-        'planned or preplanned': ['Pre Planned', 'Indifferent', 'Spontaneous'],
+        'planned or preplanned': ['Pre Planned',  'Spontaneous'],
+        'payment preference':['Cash', 'Digital']
         }
         if selected_people_column in order_dict:
             ordered_values = order_dict[selected_people_column]
@@ -129,7 +130,9 @@ if select_metric in line_charts:
         'Income': ['Below Rs. 50,000', 'Rs. 50,000- 2,00,000', 'Rs. 2,00,000- 5,00,000', 'Above Rs. 5,00,000'],
         'time category': ['No Time', 'Very Little Time', 'Moderate Time', 'Considerable Time', 'Excessive Time'],
         'willingness for additional charges': ['0', '0.05', '0.1', '0.2', 'More than 20%'],
-        'planned or preplanned': ['Pre Planned', 'Indifferent', 'Spontaneous'],
+        'planned or preplanned': ['Pre Planned',  'Spontaneous'],
+        'shopping preference':['Online',  'Offline'],
+        'payment preference':['Cash', 'Digital']
         }
     
         if selected_people_column in order_dict:
@@ -167,8 +170,9 @@ if select_metric in bar_charts:
     def create_price_increase_yes_bar_dict(melted_df, selected_people_column, selected_price_columns):
         custom_dict = []
         order_dict = {'Decision maker': ['No', 'Yes, but only for myself', 'Yes, for the whole household'],
-                      'planned or preplanned': ['Pre Planned', 'Indifferent', 'Spontaneous'],
-                      'transaction frequency':['Less Frequent', 'Indifferent', 'More Frequent']}
+                      'planned or preplanned': ['Pre Planned',  'Spontaneous'],
+                      'transaction frequency':['Less Frequent',  'More Frequent'],
+                      'payment preference':['Cash', 'Digital']}
         if selected_people_column in order_dict:
             ordered_values = order_dict[selected_people_column]
         else:
@@ -197,7 +201,7 @@ if select_metric in bar_charts:
         return custom_dict
     
     price_increase_yes_bar_dict = create_price_increase_yes_bar_dict(melted_increase_df, select_metric, select_product)
-
+    st.write(price_increase_yes_bar_dict)
     def create_price_decrease_yes_bar_dict(melted_df, selected_people_column, selected_price_columns):
         price_decrease_yes_bar_dict = []
         
@@ -205,8 +209,9 @@ if select_metric in bar_charts:
                 'hsl(125, 70%, 50%)', 'hsl(48, 70%, 50%)']  # Add more colors as needed
         
         order_dict = {'Decision maker': ['No', 'Yes, but only for myself', 'Yes, for the whole household'],
-                      'planned or preplanned': ['Pre Planned', 'Indifferent', 'Spontaneous'],
-                      'transaction frequency':['Less Frequent', 'Indifferent', 'More Frequent']}
+                      'planned or preplanned': ['Pre Planned',  'Spontaneous'],
+                      'transaction frequency':['Less Frequent', 'More Frequent'],
+                      'payment preference':['Cash', 'Digital']}
         if selected_people_column in order_dict:
             ordered_values = order_dict[selected_people_column]
         else:
@@ -540,8 +545,8 @@ with col2:
 
 with expander:
     st.components.v1.iframe("https://datawrapper.dwcdn.net/F4KWT/1/", height=400, scrolling=True)
-    st.markdown("###### 0: No 1: Yes \n Hover over labels to focus")
+    st.markdown("###### 0: No 1: Yes \n Hover over Labels to focus")
 
 with expander2:
     st.components.v1.iframe("https://datawrapper.dwcdn.net/xEfjG/1/", height=400, scrolling=True)
-    st.markdown("###### 0: No 1: Yes  \n Hover over labels to focus")
+    st.markdown("###### 0: No 1: Yes \n Hover over Labels to focus")
