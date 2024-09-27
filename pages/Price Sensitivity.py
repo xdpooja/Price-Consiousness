@@ -262,6 +262,7 @@ with elements(dashboard):
                         'stacked': False,
                         'reverse': False
                     },
+                    useMesh=True,
 
                     legends=[
                         {
@@ -323,7 +324,7 @@ with elements(dashboard):
                         'stacked': False,
                         'reverse': False
                     },
-
+                    useMesh=True,
                     legends=[
                         {
                             'anchor': 'bottom-right',

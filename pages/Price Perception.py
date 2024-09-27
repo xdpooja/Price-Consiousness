@@ -128,7 +128,7 @@ with tab1:
                             'stacked': False,
                             'reverse': False
                         },
-                        
+                        useMesh=True,
                         legends=[
                             {
                                 'anchor': 'bottom-right',
