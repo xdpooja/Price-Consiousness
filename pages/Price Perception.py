@@ -388,7 +388,7 @@ with tab2:
                         )
     
     df = pd.DataFrame({
-        'Brand Charges More Than Another' : ['In most cases I feel the brand is overcharging', 'In most cases I feel the price is justified because the product is better', 'In most cases I feel the price is justified only when there are other cost elements involved (eg: the product adhering to sustainable practices, import duties, delivery charges, etc.)'],
+        'Brand Charges More Than Another' : ['In most cases I feel the price is justified because the product is better', 'In most cases I feel the price is justified only when there are other cost elements involved (eg: the product adhering to sustainable practices, import duties, delivery charges, etc.)','In most cases I feel the brand is overcharging', ],
         'Feeling Towards discount': ['The deal is genuine', 'The deal is likely to be shadowed by additional hidden costs', 'The deal seems ingenuine and a marketing tactic'],
         'Value': [0, 1, 2]
     })

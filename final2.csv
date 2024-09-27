@@ -1,0 +1,233 @@
+,Leisure; entertainment and travel,Food and dishes,Commodities and groceries,Productivity; gadgets and technology,Lifestyle; beauty and clothing,Leisure; entertainment and travel.1,Food and dishes.1,Commodities and groceries.1,Productivity; gadgets and technology.1,Lifestyle; beauty and clothing.1,decrease Leisure; entertainment and travel,decrease Food and dishes,decrease Commodities and groceries,decrease Productivity; gadgets and technology,decerase Lifestyle; beauty and clothing,Leisure,Food,Commodities,Productivity,Lifestyle
+0,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,accurate,more than 20% over,more than 20% over,more than 20% under
+1,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% under,more than 20% over,more than 20% over,5-20% under
+2,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,more than 20% under,more than 20% under,accurate,more than 20% over,more than 20% under
+3,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,more than 20% under,5-20% under,accurate,more than 20% over,more than 20% under
+4,Undercharged,Fairly Charged,Fairly Charged,Overcharged,Undercharged,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,5-20% over,5-20% under,accurate,more than 20% over,more than 20% under
+5,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,more than 20% over,5-20% under,more than 20% under,more than 20% over,more than 20% under
+6,Overcharged,Overcharged,Overcharged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% over,5-20% under
+7,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% under,more than 20% under
+8,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,more than 20% over,5-20% under,more than 20% under
+9,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,5-20% over,more than 20% over
+10,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,No,Yes,No,No,Yes,Yes,Yes,No,Yes,5-20% over,5-20% under,more than 20% under,more than 20% over,more than 20% under
+11,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% under,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+12,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,accurate,more than 20% under,accurate,more than 20% over,more than 20% under
+13,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,No,Yes,No,No,No,Yes,accurate,more than 20% under,more than 20% over,more than 20% under,accurate
+14,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% under,5-20% under,5-20% over,accurate
+15,Fairly Charged,Overcharged,Overcharged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,accurate,5-20% over,5-20% under,more than 20% over,more than 20% under
+16,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,No,No,No,No,No,Yes,Yes,No,accurate,more than 20% over,accurate,more than 20% over,accurate
+17,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,5-20% over,5-20% under
+18,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,more than 20% over,more than 20% over
+19,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,No,Yes,No,No,No,No,Yes,Yes,No,5-20% under,more than 20% over,accurate,5-20% over,5-20% under
+20,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,No,No,Yes,Yes,No,5-20% under,more than 20% over,accurate,more than 20% over,5-20% under
+21,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,No,No,Yes,Yes,No,5-20% under,more than 20% over,more than 20% under,more than 20% over,5-20% under
+22,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,accurate
+23,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,5-20% over,more than 20% over,more than 20% over
+24,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,5-20% over,accurate
+25,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,5-20% over,more than 20% over,more than 20% over,more than 20% under,more than 20% over
+26,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,5-20% under,more than 20% over,5-20% over,5-20% under,more than 20% over
+27,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,accurate,more than 20% under,5-20% over,more than 20% under,more than 20% under
+28,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% over,more than 20% over,more than 20% over,more than 20% under
+29,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,accurate,more than 20% under,accurate,more than 20% over,accurate
+30,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+31,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,No,No,No,Yes,Yes,Yes,No,Yes,5-20% over,more than 20% over,accurate,more than 20% over,5-20% under
+32,Overcharged,Overcharged,Undercharged,Overcharged,Overcharged,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,more than 20% over,more than 20% over,more than 20% under
+33,Overcharged,Overcharged,Undercharged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,5-20% under,more than 20% over,more than 20% over,more than 20% under
+34,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,more than 20% over,more than 20% over,5-20% under
+35,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,accurate,more than 20% over,more than 20% over,more than 20% under
+36,Overcharged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,more than 20% over,more than 20% over,5-20% under
+37,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,5-20% under,more than 20% over,more than 20% over,more than 20% under,more than 20% over
+38,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% under,more than 20% over,5-20% under,more than 20% under
+39,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,5-20% over,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+40,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,accurate,more than 20% under,more than 20% under
+41,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,No,No,No,No,No,No,No,No,Yes,accurate,more than 20% over,accurate,more than 20% under,more than 20% over
+42,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,5-20% over,accurate,5-20% over,more than 20% under
+43,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,5-20% under,5-20% over,more than 20% over,more than 20% under,more than 20% under
+44,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% over,more than 20% over,5-20% under
+45,Fairly Charged,Fairly Charged,Undercharged,Overcharged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,accurate,more than 20% over,more than 20% over,5-20% under
+46,Fairly Charged,Overcharged,Undercharged,Fairly Charged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% over,more than 20% under
+47,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% over,more than 20% over,more than 20% over,more than 20% under
+48,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,5-20% over,5-20% over,more than 20% under,more than 20% over,more than 20% under
+49,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,No,No,accurate,5-20% under,5-20% under,more than 20% over,more than 20% under
+50,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,5-20% under
+51,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,5-20% over,accurate
+52,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% over,accurate,5-20% over,accurate
+53,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,5-20% under,5-20% under,more than 20% over,more than 20% over,more than 20% under
+54,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,accurate,5-20% under,more than 20% under,5-20% under,5-20% under
+55,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,No,Yes,No,No,Yes,No,Yes,No,Yes,5-20% under,5-20% under,more than 20% under,more than 20% under,more than 20% under
+56,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,5-20% over,accurate,more than 20% under,5-20% under,5-20% under
+57,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,more than 20% under,5-20% under,more than 20% under,more than 20% under,more than 20% under
+58,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,accurate,5-20% under,more than 20% under,more than 20% under,more than 20% under
+59,Fairly Charged,Fairly Charged,Undercharged,Overcharged,Overcharged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,more than 20% over,accurate
+60,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,accurate,accurate
+61,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,accurate,5-20% over,accurate,5-20% under,more than 20% under
+62,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,accurate,more than 20% under,more than 20% under,more than 20% under,more than 20% under
+63,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,5-20% under,more than 20% over,5-20% over
+64,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% over,5-20% over,more than 20% over,5-20% under
+65,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% over,accurate,more than 20% over,5-20% under
+66,Fairly Charged,Overcharged,Overcharged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% under,accurate,more than 20% over,more than 20% under
+67,Fairly Charged,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,accurate,accurate,5-20% over,more than 20% over,more than 20% under
+68,Overcharged,Fairly Charged,Overcharged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,5-20% over,accurate,more than 20% under
+69,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% over,more than 20% under,more than 20% under
+70,Fairly Charged,Undercharged,Undercharged,Fairly Charged,Undercharged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% under,accurate,5-20% under,accurate
+71,Fairly Charged,Fairly Charged,Undercharged,Undercharged,Fairly Charged,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% under,accurate,5-20% over,more than 20% under
+72,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,more than 20% over,more than 20% under,more than 20% under
+73,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,accurate,5-20% over,accurate,more than 20% over,more than 20% under
+74,Overcharged,Fairly Charged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,5-20% over,5-20% over,more than 20% under
+75,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,more than 20% over,more than 20% over
+76,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,5-20% over,accurate,more than 20% under
+77,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,accurate,more than 20% under,more than 20% over,more than 20% over
+78,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,5-20% over,accurate,more than 20% under
+79,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,accurate,5-20% over,5-20% under,5-20% under
+80,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,5-20% over,5-20% under,more than 20% under
+81,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,5-20% over,5-20% over,more than 20% under,5-20% under,5-20% under
+82,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+83,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,accurate,more than 20% under,more than 20% under
+84,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,more than 20% over,more than 20% over,accurate,5-20% under,more than 20% over
+85,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,5-20% over,more than 20% over,more than 20% over,more than 20% over,5-20% under
+86,Overcharged,Overcharged,Overcharged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% over,5-20% over,5-20% over,more than 20% under
+87,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,0,0,0,0,0,Yes,Yes,No,No,No,accurate,5-20% under,accurate,more than 20% under,accurate
+88,Fairly Charged,Overcharged,Overcharged,Overcharged,Overcharged,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,more than 20% under,more than 20% under,accurate,more than 20% under,more than 20% under
+89,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,more than 20% over,more than 20% over,more than 20% under
+90,Fairly Charged,Fairly Charged,Undercharged,Overcharged,Overcharged,Yes,No,Yes,No,No,No,No,Yes,0,Yes,more than 20% over,5-20% under,more than 20% over,more than 20% over,more than 20% under
+91,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,Yes,Yes,No,Yes,Yes,No,No,Yes,more than 20% over,5-20% under,more than 20% over,more than 20% over,5-20% under
+92,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,accurate,more than 20% under,more than 20% over,more than 20% under
+93,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,5-20% over,5-20% under,accurate,more than 20% under,accurate
+94,Fairly Charged,Undercharged,Undercharged,Fairly Charged,Overcharged,No,No,Yes,No,Yes,Yes,Yes,No,Yes,No,5-20% under,5-20% under,more than 20% over,more than 20% over,more than 20% under
+95,0,0,Undercharged,Undercharged,Fairly Charged,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,5-20% over,5-20% under,more than 20% over,more than 20% over,more than 20% under
+96,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% under,accurate,more than 20% over,accurate
+97,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% under,accurate,more than 20% under,more than 20% under
+98,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+99,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,5-20% under,more than 20% under
+100,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+101,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% under,more than 20% under
+102,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,more than 20% over,more than 20% over,5-20% under,more than 20% over,more than 20% under
+103,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,more than 20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+104,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,5-20% under,5-20% under,more than 20% under
+105,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,5-20% over
+106,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,0,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,more than 20% over,5-20% over,accurate,more than 20% over,5-20% over
+107,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,5-20% over,5-20% over,more than 20% under
+108,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% over,accurate
+109,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% over,more than 20% over,more than 20% over,more than 20% under
+110,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,accurate
+111,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Undercharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% under,accurate,5-20% under,more than 20% under
+112,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,accurate
+113,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,5-20% under
+114,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Undercharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% under,5-20% under,accurate,more than 20% under
+115,Fairly Charged,Overcharged,Overcharged,Overcharged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,more than 20% over,more than 20% over,5-20% under
+116,Undercharged,Undercharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,No,more than 20% over,accurate,accurate,more than 20% over,more than 20% under
+117,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,5-20% over,more than 20% over,accurate
+118,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,accurate,more than 20% under,more than 20% over,more than 20% under
+119,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,more than 20% over,5-20% over,accurate,more than 20% over,more than 20% under
+120,Fairly Charged,Fairly Charged,Undercharged,Overcharged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% under,5-20% over,more than 20% under,more than 20% under
+121,Fairly Charged,Fairly Charged,Undercharged,Overcharged,Fairly Charged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,No,5-20% under,more than 20% under,accurate,more than 20% under,more than 20% under
+122,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,accurate,5-20% over,5-20% under
+123,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Undercharged,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,5-20% under,more than 20% under,5-20% over,5-20% under,more than 20% under
+124,Overcharged,Fairly Charged,Overcharged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,5-20% under
+125,Undercharged,Fairly Charged,Undercharged,Overcharged,Undercharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% under,accurate,accurate,more than 20% under
+126,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,more than 20% over,5-20% over,more than 20% under
+127,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,more than 20% over,more than 20% over,more than 20% under,more than 20% over,more than 20% over
+128,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,5-20% over,accurate,5-20% under,more than 20% under
+129,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,5-20% under,more than 20% over,more than 20% under
+130,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% under,more than 20% over,more than 20% under
+131,Fairly Charged,Fairly Charged,Undercharged,Fairly Charged,Undercharged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,accurate,accurate,5-20% over
+132,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,more than 20% under,more than 20% over,more than 20% under
+133,Fairly Charged,Overcharged,Overcharged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,accurate,more than 20% under,accurate,more than 20% under,more than 20% over
+134,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% under,accurate,5-20% over,accurate
+135,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Undercharged,No,No,No,No,No,Yes,No,Yes,Yes,No,more than 20% over,5-20% over,more than 20% over,more than 20% over,more than 20% under
+136,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,5-20% over,more than 20% over,5-20% under,accurate
+137,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,No,No,No,No,No,No,Yes,Yes,No,more than 20% under,more than 20% under,accurate,more than 20% over,more than 20% under
+138,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,No,Yes,No,No,No,No,Yes,No,No,accurate,accurate,accurate,more than 20% over,more than 20% under
+139,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Overcharged,Yes,No,No,Yes,No,Yes,Yes,Yes,No,Yes,5-20% under,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+140,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Undercharged,No,No,No,No,No,No,No,Yes,No,No,more than 20% over,more than 20% under,5-20% over,5-20% over,accurate
+141,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Undercharged,No,No,No,No,No,No,No,No,Yes,No,more than 20% over,5-20% over,5-20% over,accurate,5-20% under
+142,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% over,more than 20% over,more than 20% under
+143,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Undercharged,Yes,No,No,No,Yes,No,Yes,Yes,Yes,No,5-20% over,accurate,accurate,5-20% under,5-20% under
+144,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% under,5-20% over
+145,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,accurate
+146,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,accurate,more than 20% over,more than 20% over,more than 20% under
+147,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,5-20% over,more than 20% under
+148,Overcharged,Overcharged,Overcharged,Fairly Charged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+149,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% under,more than 20% under
+150,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,Yes,No,Yes,No,No,accurate,accurate,more than 20% over,more than 20% under,more than 20% under
+151,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,5-20% over,more than 20% under,more than 20% under
+152,Overcharged,Overcharged,Overcharged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% over,more than 20% under
+153,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,accurate,5-20% over,more than 20% over,more than 20% over,more than 20% under
+154,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% over,more than 20% under
+155,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,5-20% over,more than 20% under
+156,Overcharged,Overcharged,Overcharged,Fairly Charged,Overcharged,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% under,accurate,more than 20% over,more than 20% under
+157,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,5-20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+158,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% over,more than 20% over,more than 20% over,more than 20% under
+159,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,accurate,more than 20% over,5-20% over,more than 20% under
+160,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,5-20% over,more than 20% over,5-20% under,more than 20% under
+161,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,accurate,more than 20% over,more than 20% under,more than 20% under
+162,Fairly Charged,Overcharged,Overcharged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% under,more than 20% under,more than 20% over,more than 20% under
+163,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,accurate
+164,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,5-20% over,more than 20% over,accurate,more than 20% over,5-20% over
+165,Overcharged,Fairly Charged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,accurate,5-20% over,more than 20% under,more than 20% over,more than 20% under
+166,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,No,more than 20% under,more than 20% under,more than 20% over,accurate,accurate
+167,Overcharged,Fairly Charged,Overcharged,Overcharged,Fairly Charged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,5-20% under,more than 20% over,more than 20% under
+168,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,more than 20% over,more than 20% over,more than 20% over
+169,Undercharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,accurate,accurate,more than 20% over,5-20% over,5-20% over
+170,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% over,5-20% over,5-20% over
+171,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,accurate,accurate,more than 20% over,5-20% over,5-20% over
+172,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,5-20% over,5-20% under,more than 20% over,5-20% over,5-20% over
+173,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,accurate,more than 20% over,5-20% over,5-20% over
+174,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% over,accurate,5-20% over
+175,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% under,more than 20% over,5-20% over,5-20% over
+176,Fairly Charged,Overcharged,Undercharged,Fairly Charged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,accurate,accurate,more than 20% over,accurate,5-20% over
+177,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% over,more than 20% over,more than 20% under,5-20% under
+178,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,5-20% over,more than 20% over,more than 20% over
+179,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,more than 20% over,more than 20% over,more than 20% under
+180,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,accurate,accurate,more than 20% over,more than 20% under
+181,Overcharged,Fairly Charged,Undercharged,Overcharged,Overcharged,No,No,No,No,No,No,No,No,No,No,more than 20% over,more than 20% over,more than 20% over,more than 20% over,5-20% over
+182,Undercharged,Fairly Charged,Undercharged,Fairly Charged,Undercharged,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,5-20% under,more than 20% over,more than 20% over,more than 20% over
+183,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,5-20% over,5-20% under,accurate,more than 20% over,more than 20% over
+184,Overcharged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,more than 20% under,accurate,5-20% under,accurate
+185,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,more than 20% under
+186,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+187,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,accurate,more than 20% over,more than 20% under
+188,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,more than 20% under
+189,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,5-20% over,more than 20% under
+190,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% over,accurate,more than 20% over,more than 20% under
+191,Overcharged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,accurate,5-20% over,more than 20% under
+192,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,5-20% over,more than 20% over,5-20% over,5-20% under
+193,Overcharged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,accurate,5-20% under,5-20% over,5-20% under,more than 20% under
+194,Overcharged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% over,accurate,accurate,more than 20% under
+195,Overcharged,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% over,5-20% over,5-20% under,more than 20% under
+196,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% over,more than 20% over,5-20% under,more than 20% over,more than 20% over
+197,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,5-20% under,more than 20% over,more than 20% over
+198,Fairly Charged,Overcharged,Overcharged,Overcharged,Fairly Charged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% over,5-20% over,more than 20% over,more than 20% over
+199,Overcharged,Fairly Charged,Overcharged,Overcharged,Overcharged,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,5-20% under,5-20% over,5-20% over,more than 20% under
+200,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,more than 20% over,more than 20% over,more than 20% over,5-20% under
+201,Fairly Charged,Overcharged,Overcharged,Fairly Charged,Overcharged,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,accurate,more than 20% over,accurate,5-20% over,more than 20% under
+202,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,5-20% over,5-20% over,more than 20% over,5-20% under,more than 20% under
+203,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,accurate,5-20% under,accurate,more than 20% over,more than 20% under
+204,Overcharged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,accurate,5-20% under,more than 20% over,more than 20% under
+205,Fairly Charged,Undercharged,Overcharged,Undercharged,Fairly Charged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,more than 20% under,more than 20% under,accurate,more than 20% under,more than 20% under
+206,Undercharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,more than 20% over,more than 20% under,5-20% over,5-20% under,more than 20% under
+207,Fairly Charged,Undercharged,Overcharged,Overcharged,Fairly Charged,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,more than 20% over,more than 20% under,5-20% under,more than 20% under,more than 20% under
+208,Fairly Charged,Undercharged,Overcharged,Fairly Charged,Undercharged,Yes,Yes,No,No,No,Yes,Yes,No,No,Yes,5-20% over,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+209,Fairly Charged,Fairly Charged,Overcharged,Overcharged,Undercharged,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,more than 20% over,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+210,Overcharged,Fairly Charged,Overcharged,Overcharged,Overcharged,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,5-20% over,more than 20% under,more than 20% over,5-20% under,more than 20% under
+211,Overcharged,Fairly Charged,Undercharged,Overcharged,Fairly Charged,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,5-20% under,more than 20% under,more than 20% under,5-20% over,more than 20% under
+212,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,Yes,Yes,No,No,No,Yes,Yes,No,Yes,5-20% over,5-20% over,accurate,more than 20% over,more than 20% under
+213,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% under,5-20% over,more than 20% under,more than 20% under
+214,Fairly Charged,Fairly Charged,Fairly Charged,Fairly Charged,Overcharged,No,No,Yes,No,No,No,Yes,Yes,No,Yes,more than 20% over,more than 20% over,more than 20% over,more than 20% under,more than 20% under
+215,Fairly Charged,0,Fairly Charged,Overcharged,Overcharged,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% under,more than 20% over,5-20% under,more than 20% under
+216,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,No,No,No,No,No,Yes,Yes,No,No,more than 20% over,5-20% over,accurate,more than 20% under,more than 20% under
+217,Overcharged,Fairly Charged,Overcharged,Overcharged,Fairly Charged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% over,5-20% over,accurate,more than 20% under,more than 20% under
+218,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,accurate,accurate,accurate,more than 20% over,more than 20% under
+219,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,No,No,No,No,Yes,Yes,5-20% over,5-20% under,more than 20% under,more than 20% over,more than 20% under
+220,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% under,more than 20% under,accurate,more than 20% over,more than 20% under
+221,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,more than 20% under,accurate,accurate,more than 20% over,accurate
+222,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,more than 20% under,more than 20% under,more than 20% over,more than 20% over,5-20% under
+223,Overcharged,Fairly Charged,Overcharged,Fairly Charged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,accurate,5-20% over,accurate,accurate,more than 20% under
+224,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,accurate,more than 20% under,more than 20% over,more than 20% under,more than 20% under
+225,Fairly Charged,Fairly Charged,Undercharged,Fairly Charged,Fairly Charged,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,5-20% under,5-20% over,accurate,5-20% over,more than 20% under
+226,Overcharged,Overcharged,Fairly Charged,Overcharged,Fairly Charged,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,5-20% over,accurate,accurate,more than 20% under,5-20% under
+227,Overcharged,Overcharged,Fairly Charged,Overcharged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,more than 20% under,5-20% under,more than 20% over,more than 20% under,more than 20% under
+228,Overcharged,Overcharged,Overcharged,Overcharged,Overcharged,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,accurate,accurate,accurate,5-20% over,more than 20% under
+229,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,5-20% under,more than 20% under,accurate,more than 20% under,5-20% under
+230,Fairly Charged,Overcharged,Fairly Charged,Overcharged,Overcharged,No,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,5-20% under,more than 20% under,accurate,more than 20% under,5-20% under
+231,Fairly Charged,Overcharged,Fairly Charged,Fairly Charged,Overcharged,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,more than 20% over,5-20% over,more than 20% over,more than 20% under,accurate
