@@ -201,7 +201,7 @@ if select_metric in bar_charts:
         return custom_dict
     
     price_increase_yes_bar_dict = create_price_increase_yes_bar_dict(melted_increase_df, select_metric, select_product)
-    st.write(price_increase_yes_bar_dict)
+    
     def create_price_decrease_yes_bar_dict(melted_df, selected_people_column, selected_price_columns):
         price_decrease_yes_bar_dict = []
         
