@@ -323,13 +323,18 @@ with tab2:
             col1, col2 = st.columns(2)
             with col1 : 
                 select_metric = st.selectbox('Select Reasonability', ['Overcharged', 'Undercharged', 'Fairly Charged'])
-
+            with col2:
+                select_product = st.multiselect('', options= [ 'Leisure; entertainment and travel', 'Food and dishes',
+        'Commodities and groceries', 'Productivity; gadgets and technology',
+        'Lifestyle; beauty and clothing',], default= [ 'Leisure; entertainment and travel', 'Food and dishes',
+        'Commodities and groceries', 'Productivity; gadgets and technology',
+        'Lifestyle; beauty and clothing',])
             def build_entity_count_dict2(df,select_product, select_entity):
                 # Get value counts for the selected column
                 counts = df[select_product][df[select_product]==select_entity].count()
-                
+                percentage = counts/230
                 # Convert the counts into the desired dictionary format
-                entity_count_dict = [{'category': category, 'count': count} for category, count in counts.items()]
+                entity_count_dict = [{'category': category, 'count': percentage} for category, percentage in percentage.items()]
                 
                 return entity_count_dict
             
