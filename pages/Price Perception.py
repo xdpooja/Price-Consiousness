@@ -7,6 +7,51 @@ st.set_page_config(layout="wide")
 tab1 , tab2 = st.tabs(['Perception', 'Sentiment'])
 with tab1:
     data = pd.read_csv("final.csv")
+       
+    dummmydf_ = pd.read_csv('dummmmy1.csv')
+    toggle = st.toggle('Slider options On/Off', value=True)
+    if toggle:
+        col11, col22 = st.columns(2)
+        with col11:
+            slider_preference = st.selectbox('Select slider filter', options=['Payment Preference', 'Shopping Preference', 'Spontaneous or Preplanned', 'Transaction Frequency'])
+        with col22:
+            slider_value = [1,2,3,4,5]
+            x = []
+
+            if slider_preference == 'Payment Preference':
+                x.append('Cash')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Digital')
+                x.append('Digital')
+            if slider_preference == 'Shopping Preference':
+                x.append('Offline')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Online')
+                x.append('Online')
+            if slider_preference == 'Spontaneous or Preplanned':
+                x.append('Spontaneous')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Pre Planned')
+                x.append('Pre Planned')
+            if slider_preference == 'Transaction Frequency':
+                x.append('Less frequent with multiple products in one high value transaction')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Frequent')
+                x.append('Frequent with lesser products in multiple low value transactions')
+
+            def stringify(i:int = 0) -> str:
+                return x[i-1]
+
+            slider = st.select_slider(f'Scale for {slider_preference}', options=slider_value, format_func=stringify)
+
+        dummmydf = dummmydf_[dummmydf_[slider_preference]==slider]
+    if not toggle:
+        dummmydf = dummmydf_
+    
     perceprtion_columns = [ 'Leisure; entertainment and travel', 'Food and dishes',
         'Commodities and groceries', 'Productivity; gadgets and technology',
         'Lifestyle; beauty and clothing',]
@@ -14,12 +59,11 @@ with tab1:
     select_product = st.multiselect("Price Perception of", perceprtion_columns, default=perceprtion_columns)
     select_metric = st.selectbox("Choose Group", ['Age', 'Location', 'Income', 'Decision maker', 'time category','payment preference','shopping preference'])
     filtered_df = data[select_product + [select_metric]]
-
+    
     melted_df = filtered_df.melt(id_vars=[select_metric], var_name='Category', value_name='Perception')
     line_charts = ['Age', 'Income', 'time category', 'willingness for additional charges']
     bar_charts = ['Gender', 'Location', 'Decision maker', 'payment preference','shopping preference','planned or preplanned', 'transaction frequency']
-
-    dummmydf = pd.read_csv('dummmmy1.csv')
+ 
     filtered_df2 = dummmydf[select_product + [select_metric]]
     melted_df2 = filtered_df2.melt(id_vars=[select_metric], var_name='Category', value_name='Perception')
 
@@ -56,7 +100,7 @@ with tab1:
                         (melted_df[selected_people_column] == value) &
                         (melted_df['Category'] == product) 
                     ]['Perception'].mean()
-                    
+                    overcharged_count = 0 if pd.isna(overcharged_count) else round(overcharged_count, 2)
                     product_data["data"].append({"x": value, "y": overcharged_count})
                 
                 overcharged_dict.append(product_data)
@@ -89,8 +133,8 @@ with tab1:
                     overestimate_count = melted_df[
                         (melted_df[selected_people_column] == value) &
                         (melted_df['Category'] == product)
-                    ]['Perception'].mean().round(2)
-                    
+                    ]['Perception'].mean()
+                    overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                     # Add the product value and corresponding color
                     entity_key = product  # Remove spaces from the product name
                     entry[entity_key] = overestimate_count
@@ -263,7 +307,7 @@ with tab1:
 
                     ), key = 'fourth'
                 )
-    st.components.v1.iframe("https://datawrapper.dwcdn.net/qfwiL/1/", height=400, scrolling=True)
+   
 
 with tab2:
     col3, col4 = st.columns(2)
@@ -273,7 +317,50 @@ with tab2:
     with col4:
         metric = st.multiselect("Select Metric", options=['feeling towards discount', 'brand charges more than another'])
 
-    data3 = pd.read_csv('dummmmy1.csv')
+    data3_ = pd.read_csv('dummmmy1.csv')
+    toggle = st.toggle('Slider options On/Off', value=True, key='none')
+    if toggle:
+        col11, col22 = st.columns(2)
+        with col11:
+            slider_preference = st.selectbox('Select slider filter', options=['Payment Preference', 'Shopping Preference', 'Spontaneous or Preplanned', 'Transaction Frequency'], key='none2')
+        with col22:
+            slider_value = [1,2,3,4,5]
+            x = []
+
+            if slider_preference == 'Payment Preference':
+                x.append('Cash')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Digital')
+                x.append('Digital')
+            if slider_preference == 'Shopping Preference':
+                x.append('Offline')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Online')
+                x.append('Online')
+            if slider_preference == 'Spontaneous or Preplanned':
+                x.append('Spontaneous')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Pre Planned')
+                x.append('Pre Planned')
+            if slider_preference == 'Transaction Frequency':
+                x.append('Less frequent with multiple products in one high value transaction')
+                x.append('Moderately Indifferent')
+                x.append('Indifferent')
+                x.append('Moderately Frequent')
+                x.append('Frequent with lesser products in multiple low value transactions')
+
+            def stringify(i:int = 0) -> str:
+                return x[i-1]
+
+            slider = st.select_slider(f'Scale for {slider_preference}', options=slider_value, format_func=stringify, key='none3')
+
+        data3 = data3_[data3_[slider_preference]==slider]
+    if not toggle:
+        data3 = data3_
+
 
     filtered_df3 = data3[[demographic]+metric].dropna()
     
@@ -301,7 +388,7 @@ with tab2:
             for value in ordered_values:
                 # Calculate the average of the current price column for the subset matching the current value in selected_people_column
                 subset_avg = melted_df[melted_df[selected_people_column] == value][price_column].mean(skipna=True)
-                
+                subset_avg = 0 if pd.isna(subset_avg) else round(subset_avg, 2)
                 # Append the data as a dictionary with 'x' as the value (e.g., age group) and 'y' as the calculated average
                 product_data["data"].append({"x": value, "y": subset_avg})
             
