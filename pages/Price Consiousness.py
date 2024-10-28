@@ -4,7 +4,35 @@ from streamlit_elements import *
 st.set_page_config(layout="wide")
 
 
-data = pd.read_csv("final.csv")
+data_ = pd.read_csv("final.csv")
+
+toggle = st.toggle('Slider options On/Off', value=True)
+if toggle:
+    col11, col22 = st.columns(2)
+    with col11:
+        slider_preference = st.selectbox('Select slider filter', options=['payment preference', 'shopping preference', 'planned or preplanned'])
+    with col22:
+        x = []
+
+        if slider_preference == 'payment preference':
+            x.append('Cash')
+            x.append('Indifferent')
+            x.append('Digital')
+        if slider_preference == 'shopping preference':
+            x.append('Offline')
+            x.append('Indifferent')
+            x.append('Online')
+        if slider_preference == 'planned or preplanned':
+            x.append('Spontaneous')
+            x.append('Indifferent')
+            x.append('Pre Planned')
+
+        slider = st.select_slider(f'Scale for {slider_preference}', options=x)
+
+    data = data_[data_[slider_preference]==slider]
+if not toggle:
+    data = data_
+
 price_columns = [ 'movie ticket price','medium pizza price', 'coca cola price', 'oven price', 'shampoo price']
 
 price_columns2 = [ 'movie ticket','medium pizza',  'shampoo']
@@ -63,8 +91,10 @@ if select_metric in line_charts:
                 overestimate_count = melted_df[
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Product'] == product)
-                ]['Awareness'].mean().round(2)
+                ]['Awareness'].mean()
                 
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
+
                 product_data["data"].append({"x": value, "y": overestimate_count})
             
             awareness_dict.append(product_data)
@@ -102,7 +132,7 @@ if select_metric in line_charts:
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Product'] == product)
                 ]['Awareness'].mean()
-                
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                 product_data["data"].append({"x": value, "y": overestimate_count})
             
             awareness_dict.append(product_data)
@@ -140,7 +170,7 @@ if select_metric in line_charts:
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Product'] == product)
                 ]['Awareness'].mean()
-                
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                 product_data["data"].append({"x": value, "y": overestimate_count})
             
             awareness_dict.append(product_data)
@@ -171,8 +201,8 @@ if select_metric in bar_charts:
                 overestimate_count = melted_df[
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Product'] == product)
-                ]['Awareness'].mean().round(2)
-                
+                ]['Awareness'].mean()
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                 # Add the product value and corresponding color
                 entity_key = product  # Remove spaces from the product name
                 entry[entity_key] = overestimate_count
@@ -204,8 +234,8 @@ if select_metric in bar_charts:
                 overestimate_count = melted_df[
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Product'] == product)
-                ]['Awareness'].mean().round(2)
-                
+                ]['Awareness'].mean()
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                 # Add the product value and corresponding color
                 entity_key = product  # Remove spaces from the product name
                 entry[entity_key] = overestimate_count
@@ -237,8 +267,8 @@ if select_metric in bar_charts:
                 overestimate_count = melted_df[
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Product'] == product)
-                ]['Awareness'].mean().round(2)
-                
+                ]['Awareness'].mean()
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                 # Add the product value and corresponding color
                 entity_key = product  # Remove spaces from the product name
                 entry[entity_key] = overestimate_count
