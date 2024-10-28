@@ -5,7 +5,50 @@ from streamlit_elements import *
 st.set_page_config(layout="wide")
 
 
-data = pd.read_csv("final.csv")
+data_ = pd.read_csv("final.csv")
+data2_= pd.read_csv('dummmmy.csv')
+toggle = st.toggle('Slider options On/Off', value=True)
+if toggle:
+    col11, col22 = st.columns(2)
+    with col11:
+        slider_preference = st.selectbox('Select slider filter', options=['Payment Preference', 'Shopping Preference', 'Spontaneous or Preplanned', 'Transaction Frequency'])
+    with col22:
+        slider_value = [1,2,3,4,5]
+        x = []
+
+        if slider_preference == 'Payment Preference':
+            x.append('Cash')
+            x.append('Moderately Indifferent')
+            x.append('Indifferent')
+            x.append('Moderately Digital')
+            x.append('Digital')
+        if slider_preference == 'Shopping Preference':
+            x.append('Offline')
+            x.append('Moderately Indifferent')
+            x.append('Indifferent')
+            x.append('Moderately Online')
+            x.append('Online')
+        if slider_preference == 'Spontaneous or Preplanned':
+            x.append('Spontaneous')
+            x.append('Moderately Indifferent')
+            x.append('Indifferent')
+            x.append('Moderately Pre Planned')
+            x.append('Pre Planned')
+        if slider_preference == 'Transaction Frequency':
+            x.append('Less frequent with multiple products in one high value transaction')
+            x.append('Moderately Indifferent')
+            x.append('Indifferent')
+            x.append('Moderately Frequent')
+            x.append('Frequent with lesser products in multiple low value transactions')
+
+        def stringify(i:int = 0) -> str:
+            return x[i-1]
+
+        slider = st.select_slider(f'Scale for {slider_preference}', options=slider_value, format_func=stringify)
+
+    data2 = data2_[data2_[slider_preference]==slider]
+if not toggle:
+    data2 = data2_
 
 # Define your column options and mappings
 increase_columns = [
@@ -66,7 +109,7 @@ for col2 in select_product:
     col2 =option_reverse.get(col2)
     selected_decrease.append(col2)
 
-data2= pd.read_csv('dummmmy.csv')
+
 # For Increase
 filtered_df_increase = data2[selected_increase + [select_metric]]
 melted_increase_df = filtered_df_increase.melt(id_vars=[select_metric], var_name='Category', value_name='Sensitivity')
@@ -112,7 +155,7 @@ if select_metric in line_charts:
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Category'] == product)
                 ]['Sensitivity'].mean()
-                
+                overcharged_count = 0 if pd.isna(overcharged_count) else round(overcharged_count, 2)
                 product_data["data"].append({"x": value, "y": overcharged_count})
             
             price_increase_yes_dict.append(product_data)
@@ -154,7 +197,7 @@ if select_metric in line_charts:
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Category'] == product)
                 ]['Sensitivity'].mean()
-                
+                fairlycharged_count = 0 if pd.isna(fairlycharged_count) else round(fairlycharged_count, 2)
                 product_data["data"].append({"x": value, "y": fairlycharged_count})
             
             price_decrease_yes_dict.append(product_data)
@@ -189,8 +232,8 @@ if select_metric in bar_charts:
                 overestimate_count = melted_df[
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Category'] == product)
-                ]['Sensitivity'].mean(0).round(2)
-                
+                ]['Sensitivity'].mean(0)
+                overestimate_count = 0 if pd.isna(overestimate_count) else round(overestimate_count, 2)
                 # Add the product value and corresponding color
                 entity_key = product  # Remove spaces from the product name
                 entry[entity_key] = overestimate_count
@@ -225,8 +268,8 @@ if select_metric in bar_charts:
                 underestimation_count = melted_df[
                     (melted_df[selected_people_column] == value) &
                     (melted_df['Category'] == product)
-                ]['Sensitivity'].mean(0).round(2)
-                
+                ]['Sensitivity'].mean(0)
+                underestimation_count = 0 if pd.isna(underestimation_count) else round(underestimation_count, 2)
                 # Add the product value and corresponding color
                 entity_key = product  # Remove spaces from the product name
                 entry[entity_key] = underestimation_count
@@ -535,19 +578,3 @@ with elements(dashboard):
                 ), key = 'fourth'
             )
 
-col1, col2 = st.columns(2)
-
-with col1:
-    expander = st.expander("See what mostly people responded as when product price increase")
-
-with col2: 
-    expander2 = st.expander("See what mostly people responded as when product price decreases")
-
-
-with expander:
-    st.components.v1.iframe("https://datawrapper.dwcdn.net/F4KWT/1/", height=400, scrolling=True)
-    st.markdown("###### 0: No 1: Yes \n Hover over Labels to focus")
-
-with expander2:
-    st.components.v1.iframe("https://datawrapper.dwcdn.net/xEfjG/1/", height=400, scrolling=True)
-    st.markdown("###### 0: No 1: Yes \n Hover over Labels to focus")
